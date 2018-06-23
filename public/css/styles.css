@@ -1,0 +1,42 @@
+body {
+    font-family: 'Armata', sans-serif;
+    text-align: center;
+}
+
+#diversity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+}
+
+.navbar-nav {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#learnMoreButton {
+    width: 115px;
+    height: 25px;
+    background: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h6 {
+    text-indent: 50%;
+}
+
+.login {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h4 {
+    color: orangered;
+}
