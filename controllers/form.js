@@ -2,7 +2,7 @@ const Form = require('../models/Form.js')
 
 module.exports = {
     form: (req, res) => {
-        res.render('new')
+        res.render('form')
     },
     createForm: (req, res) => {
         Form.create({
