@@ -9,7 +9,7 @@ const methodOverride = require("method-override");
 
 const app = express();
 
-//require("./config/passport")(passport);
+require("./config/passport")(passport);
 hbs.registerPartials(__dirname + "/views/partials");
 app.use(express.static("public"));
 app.use(cookieParser());
