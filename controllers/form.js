@@ -1,4 +1,4 @@
-const Form = require('../models/form.js')
+const Form = require('../models/Form.js')
 
 module.exports = {
     form: (req, res) => {
