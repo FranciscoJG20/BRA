@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/br')
+mongoose.connect('mongodb://localhost/biasreporting')
 mongoose.Promise = Promise // what does this do again?
 
 
