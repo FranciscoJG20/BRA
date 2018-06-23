@@ -1,5 +1,5 @@
 const User = require("../models/user");
-//const passport = require("passport");
+const passport = require("passport");
 
 module.exports = {
   login: (req, res) => {
@@ -9,7 +9,7 @@ module.exports = {
   //then telling passport which strategy ('local-login') to use
   createLogin: (req, res) => {
     const login = passport.authenticate("local-login", {
-      successRedirect: "/",
+      successRedirect: "/form/form",
       failureRedirect: "/login",
       failureFlash: true
     });
@@ -23,7 +23,7 @@ module.exports = {
   //then telling passport which strategy ('local-signup') to use
   createSignUp: (req, res) => {
     const signup = passport.authenticate("local-signup", {
-      successRedirect: "/",
+      successRedirect: "/form/form",
       failureRedirect: "/signup",
       failureFlash: true
     });
