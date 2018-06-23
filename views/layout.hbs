@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bias Reporting</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+</head>
+<body>
+   
+<nav>
+<ul class="nav navbar-nav">
+  {{#if currentUser}}
+    <a href="/logout">Logout {{currentUser.email}}</a>
+  {{else}}
+    <a href="/user/login" class="login">Login</a> |
+    <a href="/user/signup" class="login">Signup</a>
+  {{/if}}                
+</ul>
+</nav>
+
+{{{body}}}
+
+</body>
+</html>
