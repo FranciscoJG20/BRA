@@ -23,7 +23,7 @@ module.exports = {
   //then telling passport which strategy ('local-signup') to use
   createSignUp: (req, res) => {
     const signup = passport.authenticate("local-signup", {
-      successRedirect: "/form/form",
+      successRedirect: "/profile",
       failureRedirect: "/signup",
       failureFlash: true
     });
@@ -33,5 +33,13 @@ module.exports = {
   logout: (req, res) => {
     req.logout();
     res.redirect("/");
+  },
+  secret: (req, res) => {
+    if (req.isAuthenticated()) { 
+      res.render('secret') 
+    }
+    else {
+      res.redirect('/')
+    }
   }
 };

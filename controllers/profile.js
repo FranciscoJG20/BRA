@@ -1,5 +1,12 @@
+const User = require('../models/user')
+
 module.exports = {
     index: (req, res) => {
-        res.render('profile')
+        // Profile.findOne({ user: req.user.id })
+        //   .populate('user')
+        //   .then(function (profile) {
+        //   res.render('profile', {profile, user: req.user })
+          //})
+          res.render('profile')
     }
 }
