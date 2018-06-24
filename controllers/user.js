@@ -9,7 +9,7 @@ module.exports = {
   //then telling passport which strategy ('local-login') to use
   createLogin: (req, res) => {
     const login = passport.authenticate("local-login", {
-      successRedirect: "/form/form",
+      successRedirect: "/profile",
       failureRedirect: "/login",
       failureFlash: true
     });
