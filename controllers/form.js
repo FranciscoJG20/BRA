@@ -1,4 +1,4 @@
-const Form = require('../models/form.js')
+const Form = require('../models/form')
 
 module.exports = {
     form: (req, res) => {
@@ -15,12 +15,12 @@ module.exports = {
             witness: req.body.witness,
             biasProperty: Object.keys(req.body.bias),
             incidentProperty: Object.keys(req.body.incident)
-        }).then(form => {
+        }).then(Form => {
             // For later (once auth is working):
             //    - update user obj to include ID of new form obj
             //       req.user.forms.push(form)
             //       req.user.save(callback)
-             console.log(form)
+             console.log(Form)
             
         })
     }
