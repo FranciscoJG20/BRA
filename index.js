@@ -10,6 +10,12 @@ const methodOverride = require("method-override");
 const app = express();
 
 require("./config/passport")(passport);
+
+app.use(function (req, res, next) {
+  res.locals.currentUser = req.user;
+  next();
+});
+
 hbs.registerPartials(__dirname + "/views/partials");
 app.use(express.static("public"));
 app.use(cookieParser());
@@ -26,6 +32,11 @@ app.use(
 app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
+
+app.use(function (req, res, next) {
+  res.locals.currentUser = req.user;
+  next();
+});
 
 app.use(require("./routes/index.js"));
 
