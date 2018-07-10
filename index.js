@@ -11,7 +11,7 @@ const app = express();
 
 require("./config/passport")(passport);
 
-app.use(function (req, res, next) {
+app.use(function(req, res, next) {
   res.locals.currentUser = req.user;
   next();
 });
@@ -33,15 +33,15 @@ app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use(function (req, res, next) {
+app.use(function(req, res, next) {
   res.locals.currentUser = req.user;
   next();
 });
 
 app.use(require("./routes/index.js"));
 
-app.set('port', process.env.PORT || 3001)
+app.set("port", process.env.PORT || 3001);
 
-app.listen(app.get('port'), () => {
-  console.log(`✅ PORT: ${app.get('port')} 🌟`)
-})
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
+});

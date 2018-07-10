@@ -5,7 +5,7 @@ module.exports = {
   login: (req, res) => {
     res.render("login", { message: req.flash("signupMessage") });
   },
-   // Here we are calling the method authenticate (given to us by passport) and 
+  // Here we are calling the method authenticate (given to us by passport) and
   //then telling passport which strategy ('local-login') to use
   createLogin: (req, res) => {
     const login = passport.authenticate("local-login", {
@@ -19,7 +19,7 @@ module.exports = {
   signUp: (req, res) => {
     res.render("signup", { message: req.flash("signupMessage") });
   },
-  // Here we are calling the method authenticate (given to us by passport) and 
+  // Here we are calling the method authenticate (given to us by passport) and
   //then telling passport which strategy ('local-signup') to use
   createSignUp: (req, res) => {
     const signup = passport.authenticate("local-signup", {
@@ -35,11 +35,10 @@ module.exports = {
     res.redirect("/");
   },
   secret: (req, res) => {
-    if (req.isAuthenticated()) { 
-      res.render('secret') 
-    }
-    else {
-      res.redirect('/')
+    if (req.isAuthenticated()) {
+      res.render("secret");
+    } else {
+      res.redirect("/");
     }
   }
 };

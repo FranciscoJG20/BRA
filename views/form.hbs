@@ -1,66 +1,98 @@
-<form action="/form/createForm"  method="post">
+<form action="/form/createForm" method="post">
   <fieldset>
-  <legend> Type of Bias Experienced:<br></legend> 
+    <legend> Type of Bias Experienced:
+      <br>
+    </legend>
     <input type="checkbox" name="bias[age]" value="true">
-    <label>Age</label><br>
+    <label>Age</label>
+    <br>
     <input type="checkbox" name="bias[gender]" value="true">
-    <label>Gender</label><br>
-    <input type="checkbox" name="bias[religion]" value="true" >
-    <label>Religion</label><br>
-    <input type="checkbox" name="bias[race]" value="" >
-    <label>Race</label><br>
-    <input type="checkbox" name="bias[disability]" value="" >
-    <label>Disability</label><br>
-    <input type="checkbox" name="bias[marital-status]" value="" >
-    <label>Marital Status</label><br>
-    <input type="checkbox" name="bias[sexual-orientation]" value="" >
-    <label>Sexual Orientation</label><br>
-    <input type="checkbox" name="bias[national-origin]" value="" >
-    <label>National Origin</label><br>
-    <input type="checkbox" name="bias[ethnicity]" value="" >
-    <label>Ethnicity</label><br>
-    <input type="checkbox" name="bias[gender-identity]" value="" >
+    <label>Gender</label>
+    <br>
+    <input type="checkbox" name="bias[religion]" value="true">
+    <label>Religion</label>
+    <br>
+    <input type="checkbox" name="bias[race]" value="">
+    <label>Race</label>
+    <br>
+    <input type="checkbox" name="bias[disability]" value="">
+    <label>Disability</label>
+    <br>
+    <input type="checkbox" name="bias[marital-status]" value="">
+    <label>Marital Status</label>
+    <br>
+    <input type="checkbox" name="bias[sexual-orientation]" value="">
+    <label>Sexual Orientation</label>
+    <br>
+    <input type="checkbox" name="bias[national-origin]" value="">
+    <label>National Origin</label>
+    <br>
+    <input type="checkbox" name="bias[ethnicity]" value="">
+    <label>Ethnicity</label>
+    <br>
+    <input type="checkbox" name="bias[gender-identity]" value="">
     <label>Gender Identity</label>
-    <input type="checkbox" name="bias[culture]" value="" >
-    <label>Culture</label><br>
-    <input type="checkbox" name="bias[veteran-status]" value="" >
-    <label>Veteran Status</label><br>
-    <input type="checkbox" name="bias[ex-offender-status]" value="" >
-    <label>Ex-Offender Status</label><br>
-    <input type="checkbox" name="bias[class-socioeconomic-status]" value="" >
-    <label>Class/Socioeconomic Status</label><br>
-    <input type="checkbox" name="bias[other]" value="" >
+    <input type="checkbox" name="bias[culture]" value="">
+    <label>Culture</label>
+    <br>
+    <input type="checkbox" name="bias[veteran-status]" value="">
+    <label>Veteran Status</label>
+    <br>
+    <input type="checkbox" name="bias[ex-offender-status]" value="">
+    <label>Ex-Offender Status</label>
+    <br>
+    <input type="checkbox" name="bias[class-socioeconomic-status]" value="">
+    <label>Class/Socioeconomic Status</label>
+    <br>
+    <input type="checkbox" name="bias[other]" value="">
     <label>Other</label>
-  </fieldset><br>
-  <fieldset>
-  <legend> Type of Incident:<br></legend> 
-    <input type="checkbox" name="incident[physical-harrassment]" value="true">
-    <label>Physical Harrassment or Assault</label><br>
-    <input type="checkbox" name="incident[verbal-harrassment]" value="">
-    <label>Verbal Harrassment</label><br>
-    <input type="checkbox" name="incident[phone-harrassment]" value="">
-    <label>Phone Harrassment</label><br>
-    <input type="checkbox" name="incident[written-harrassment]" value="">
-    <label>Written Harrassment</label><br>
-    <input type="checkbox" name="incident[email-online-harrassment]" value="">
-    <label>Email/Online Harrassment</label><br>
-    <input type="checkbox" name="incident[intimidation]" value="">
-    <label>Intimidation</label><br>
-    <input type="checkbox" name="incident[vandalism]" value="">
-    <label>Vandalism</label><br>
-    <input type="checkbox" name="incident[damage-destruction-property]" value="">
-    <label>Damage or Destruction of Property</label><br>
-    <input type="checkbox" name="incident[other]" value="">
-    <label>Other</label><br>
   </fieldset>
-  Where did the incident take place?<br>  
-  <textarea rows="4" cols="50" name="location"></textarea><br>
-  When did the incident take place?<br>
-  <textarea rows="4" cols="50" name="date"></textarea><br>
-  Detailed description of event:<br>
-  <textarea rows="4" cols="50" name="description"></textarea><br>
-  Did anyone witness the event? If so, who?<br>
-  <textarea rows="4" cols="50" name="witness" ></textarea><br>
+  <br>
+  <fieldset>
+    <legend> Type of Incident:
+      <br>
+    </legend>
+    <input type="checkbox" name="incident[physical-harrassment]" value="true">
+    <label>Physical Harrassment or Assault</label>
+    <br>
+    <input type="checkbox" name="incident[verbal-harrassment]" value="">
+    <label>Verbal Harrassment</label>
+    <br>
+    <input type="checkbox" name="incident[phone-harrassment]" value="">
+    <label>Phone Harrassment</label>
+    <br>
+    <input type="checkbox" name="incident[written-harrassment]" value="">
+    <label>Written Harrassment</label>
+    <br>
+    <input type="checkbox" name="incident[email-online-harrassment]" value="">
+    <label>Email/Online Harrassment</label>
+    <br>
+    <input type="checkbox" name="incident[intimidation]" value="">
+    <label>Intimidation</label>
+    <br>
+    <input type="checkbox" name="incident[vandalism]" value="">
+    <label>Vandalism</label>
+    <br>
+    <input type="checkbox" name="incident[damage-destruction-property]" value="">
+    <label>Damage or Destruction of Property</label>
+    <br>
+    <input type="checkbox" name="incident[other]" value="">
+    <label>Other</label>
+    <br>
+  </fieldset>
+  Where did the incident take place?
+  <br>
+  <textarea rows="4" cols="50" name="location"></textarea>
+  <br> When did the incident take place?
+  <br>
+  <textarea rows="4" cols="50" name="date"></textarea>
+  <br> Detailed description of event:
+  <br>
+  <textarea rows="4" cols="50" name="description"></textarea>
+  <br> Did anyone witness the event? If so, who?
+  <br>
+  <textarea rows="4" cols="50" name="witness"></textarea>
+  <br>
   </legend>
   <input type="submit" value="Submit">
 </form>
