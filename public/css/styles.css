@@ -16,7 +16,8 @@ body {
   margin: 0 auto;
 }
 
-#learnMoreButton {
+.learnMoreButton,
+#submitButton {
   width: 115px;
   height: 25px;
   background: orangered;
