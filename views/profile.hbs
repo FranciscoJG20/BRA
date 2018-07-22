@@ -1,5 +1,7 @@
-<h1>Welcome, this is your user profile!</h1>
+<h1>Welcome {{currentUser.local.email}}!</h1>
 
-<h2> you can view and submit a form
-    <a href="form/form">here</a>
-</h2>
+<h2> Are you ready to submit a form? </h2>
+
+
+<a href='/form' id="submitButton">yes</a>
+<a href='/faq' class="learnMoreButton">no</a>
