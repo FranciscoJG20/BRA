@@ -2,6 +2,10 @@ const mongoose = require("../db/connection");
 const Schema = mongoose.Schema;
 
 const Form = new Schema({
+  // email: {
+  //   type: Schema.Types.ObjectId,
+  //   ref: "User"
+  // },
   email: { type: String, require: true },
   biasProperty: {
     type: [String],
