@@ -1,4 +1,7 @@
-<form action="/form/createForm" method="post">
+<form action="/form/submit" method="POST">
+  {{!--
+  <label for="email">Email</label>
+  <input type="text" name="email" /> --}}
   <fieldset>
     <legend> Type of Bias Experienced:
       <br>
@@ -12,39 +15,39 @@
     <input type="checkbox" name="bias[religion]" value="true">
     <label>Religion</label>
     <br>
-    <input type="checkbox" name="bias[race]" value="">
+    <input type="checkbox" name="bias[race]" value="true">
     <label>Race</label>
     <br>
-    <input type="checkbox" name="bias[disability]" value="">
+    <input type="checkbox" name="bias[disability]" value="true">
     <label>Disability</label>
     <br>
-    <input type="checkbox" name="bias[marital-status]" value="">
+    <input type="checkbox" name="bias[marital-status]" value="true">
     <label>Marital Status</label>
     <br>
-    <input type="checkbox" name="bias[sexual-orientation]" value="">
+    <input type="checkbox" name="bias[sexual-orientation]" value="true">
     <label>Sexual Orientation</label>
     <br>
-    <input type="checkbox" name="bias[national-origin]" value="">
+    <input type="checkbox" name="bias[national-origin]" value="true">
     <label>National Origin</label>
     <br>
-    <input type="checkbox" name="bias[ethnicity]" value="">
+    <input type="checkbox" name="bias[ethnicity]" value="true">
     <label>Ethnicity</label>
     <br>
-    <input type="checkbox" name="bias[gender-identity]" value="">
+    <input type="checkbox" name="bias[gender-identity]" value="true">
     <label>Gender Identity</label>
-    <input type="checkbox" name="bias[culture]" value="">
+    <input type="checkbox" name="bias[culture]" value="true">
     <label>Culture</label>
     <br>
-    <input type="checkbox" name="bias[veteran-status]" value="">
+    <input type="checkbox" name="bias[veteran-status]" value="true">
     <label>Veteran Status</label>
     <br>
-    <input type="checkbox" name="bias[ex-offender-status]" value="">
+    <input type="checkbox" name="bias[ex-offender-status]" value="true">
     <label>Ex-Offender Status</label>
     <br>
-    <input type="checkbox" name="bias[class-socioeconomic-status]" value="">
+    <input type="checkbox" name="bias[class-socioeconomic-status]" value="true">
     <label>Class/Socioeconomic Status</label>
     <br>
-    <input type="checkbox" name="bias[other]" value="">
+    <input type="checkbox" name="bias[other]" value="true">
     <label>Other</label>
   </fieldset>
   <br>
@@ -55,28 +58,28 @@
     <input type="checkbox" name="incident[physical-harrassment]" value="true">
     <label>Physical Harrassment or Assault</label>
     <br>
-    <input type="checkbox" name="incident[verbal-harrassment]" value="">
+    <input type="checkbox" name="incident[verbal-harrassment]" value="true">
     <label>Verbal Harrassment</label>
     <br>
-    <input type="checkbox" name="incident[phone-harrassment]" value="">
+    <input type="checkbox" name="incident[phone-harrassment]" value="true">
     <label>Phone Harrassment</label>
     <br>
-    <input type="checkbox" name="incident[written-harrassment]" value="">
+    <input type="checkbox" name="incident[written-harrassment]" value="true">
     <label>Written Harrassment</label>
     <br>
-    <input type="checkbox" name="incident[email-online-harrassment]" value="">
+    <input type="checkbox" name="incident[email-online-harrassment]" value="true">
     <label>Email/Online Harrassment</label>
     <br>
-    <input type="checkbox" name="incident[intimidation]" value="">
+    <input type="checkbox" name="incident[intimidation]" value="true">
     <label>Intimidation</label>
     <br>
-    <input type="checkbox" name="incident[vandalism]" value="">
+    <input type="checkbox" name="incident[vandalism]" value="true">
     <label>Vandalism</label>
     <br>
-    <input type="checkbox" name="incident[damage-destruction-property]" value="">
+    <input type="checkbox" name="incident[damage-destruction-property]" value="true">
     <label>Damage or Destruction of Property</label>
     <br>
-    <input type="checkbox" name="incident[other]" value="">
+    <input type="checkbox" name="incident[other]" value="true">
     <label>Other</label>
     <br>
   </fieldset>
