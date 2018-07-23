@@ -1,6 +1,6 @@
 # Bias Reporting Application (BRA)
 
-https://user-images.githubusercontent.com/36175254/43053373-4d374578-8dfa-11e8-9569-58c81d4d3c99.png
+![alt text](https://user-images.githubusercontent.com/36175254/43053373-4d374578-8dfa-11e8-9569-58c81d4d3c99.png)
 
 ## Description:
 
