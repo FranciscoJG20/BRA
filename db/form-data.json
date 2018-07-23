@@ -1,5 +1,5 @@
 [
-  { "email": "123@sample.com",
+  {
     "biasProperty": ["age", "gender", "race"],
     "incidentProperty": ["verbal harrassment", "intimidation"],
     "location": "Classroom 5",
@@ -7,7 +7,7 @@
     "description": "kajdkfjkajfkdjakfja",
     "witness": "yes, there were 3 other classmates in the room"
   },
-  { "email": "12345@sample.com"
+  {
     "biasProperty": ["age", "gender", "race"],
     "incidentProperty": ["verbal harrassment", "intimidation"],
     "location": "Classroom 5",
