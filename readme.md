@@ -68,7 +68,7 @@ Rosa
 ### Form questions:
 
 1.  Where did the incident take place? input field
-2.  When did the incident take place? MM/DD/YYYY input
+2.  When did the incident take place?
 3.  Detailed description of event? large text box
 4.  Are you concerned for your safety or anyone else's? YES / NO (To include or not include)
 5.  Type of Incident
