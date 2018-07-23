@@ -15,23 +15,25 @@ You can run app locally by:
 1.  Forking and cloning this repository
 2.  Running npm install in the root folder, BRA
 
-`npm install`
+    `npm install`
 
 3.  Adding form seed data with seed file
 
-`node db/seed.js`
+    `node db/seed.js`
 
 4.  Running the server
 
-`nodemon index.js`
+    `nodemon index.js`
 
 5.  Opening your browser and navigating to localhost://3001
 
 ## Unsolved Issues:
 
+I am trying to make the bias reporting form only accessible when a user logs in. Currently, you can see the form (/form) without authenticating. I would also like to add a name property to my user model so that when a user logs in, they are greeted by their name instead of their email address.
+
 ## For more information including Data Survey, User Stories and Form Questions, see below:
 
-#### Survey Data
+### Survey Data
 
 54% of respondents had experienced discrimination at work or said they weren't sure if they had experienced discrimination at work.
 31% did not report the incident to their employer
