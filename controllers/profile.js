@@ -7,6 +7,6 @@ module.exports = {
     //   .then(function (profile) {
     //   res.render('profile', {profile, user: req.user })
     //})
-    res.render("profile");
+    res.render("./profile/profile");
   }
 };

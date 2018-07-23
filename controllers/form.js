@@ -2,7 +2,7 @@ const Form = require("../models/form");
 
 module.exports = {
   form: (req, res) => {
-    res.render("form");
+    res.render("./bias reporting form/form");
   },
   createForm: (req, res) => {
     console.log("I'm running");
