@@ -37,6 +37,8 @@ I am trying to make the bias reporting form only accessible when a user logs in.
 
 ### Survey Data
 
+Sample Size: 13
+
 54% of respondents had experienced discrimination at work or said they weren't sure if they had experienced discrimination at work.
 31% did not report the incident to their employer
 54% of respondents said they would feel very comfortable reporting discrimination / a hate crime through an online form and 38% said they would feel somewhat comfortable.
