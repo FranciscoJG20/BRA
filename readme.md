@@ -4,7 +4,7 @@
 
 ## Description:
 
-A company wide tool to encourage employees to report bias-related incididents / hate crimes in the workplace. The tool consists of an online form, requiring employees to create an account with their work email address. Once logged in, employees can view the form and submit it when ready. In the homepage, employees can also view an FAQ that addresses how the form works, examples of bias-related incidents, and company policy.
+A company wide tool to encourage employees to report bias-related incidents / hate crimes in the workplace. The tool consists of an online form, requiring employees to create an account with their work email address. Once logged in, employees can view the form and submit it when ready. In the homepage, employees can also view an FAQ that addresses how the form works, examples of bias-related incidents, and company policy.
 
 ## Technologies used:
 
