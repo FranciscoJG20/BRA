@@ -1,8 +1,10 @@
-# Bias Reporting Application (BRA)
+# Bias Reporting Application
+
+![alt text](https://user-images.githubusercontent.com/36175254/43053373-4d374578-8dfa-11e8-9569-58c81d4d3c99.png)
 
 ## Description:
 
-A company wide tool to encourage employees to report bias-related incididents / hate crimes in the workplace. The tool consists of an online form, requiring employees to create an account with their work email address. Once logged in, employees can view the form and submit it when ready. In the homepage, employees can also view an FAQ that addresses how the form works, examples of bias-related incidents, and company policy.
+A company wide tool to encourage employees to report bias-related incidents / hate crimes in the workplace. The tool consists of an online form, requiring employees to create an account with their work email address. Once logged in, employees can view the form and submit it when ready. In the homepage, employees can also view an FAQ that addresses how the form works, examples of bias-related incidents, and company policy.
 
 ## Technologies used:
 
@@ -35,6 +37,8 @@ I am trying to make the bias reporting form only accessible when a user logs in.
 
 ### Survey Data
 
+Sample Size: 13
+
 54% of respondents had experienced discrimination at work or said they weren't sure if they had experienced discrimination at work.
 31% did not report the incident to their employer
 54% of respondents said they would feel very comfortable reporting discrimination / a hate crime through an online form and 38% said they would feel somewhat comfortable.
@@ -66,7 +70,7 @@ Rosa
 ### Form questions:
 
 1.  Where did the incident take place? input field
-2.  When did the incident take place? MM/DD/YYYY input
+2.  When did the incident take place?
 3.  Detailed description of event? large text box
 4.  Are you concerned for your safety or anyone else's? YES / NO (To include or not include)
 5.  Type of Incident
