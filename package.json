@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec 'node -r dotenv/config' index.js",
+    "dev": "./node_modules/.bin/nodemon --exec 'node -r dotenv/config' index.js",
     "dbseed": "node db/seed.js",
     "start": "NODE_ENV=production node index.js"
   },
@@ -32,7 +32,7 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0"
   },
-  "devDependecies": {
+  "devDependencies": {
     "dotenv": "^6.2.0",
     "nodemon": "^1.18.9"
   }
