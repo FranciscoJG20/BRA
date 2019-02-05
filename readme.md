@@ -8,7 +8,7 @@ A company wide tool to encourage employees to report bias-related incidents / ha
 
 ## Technologies used:
 
-NodeJS, Express, Bcrypt, Body-Parser, Connect-Flash, Handlebars, Express-Session, Method-Override, Mongoose, Passport, HTML, CSS, Google Fonts
+NodeJS, Express, Bcrypt, Body-Parser, Connect-Flash, Handlebars, Express-Session, Method-Override, MongoDB, Mongoose, Passport, HTML, CSS, Google Fonts
 
 ## Installing and running app locally:
 
