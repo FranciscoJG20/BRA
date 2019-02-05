@@ -9,6 +9,9 @@ const methodOverride = require("method-override");
 
 const app = express();
 
+const port = process.env.PORT || 3001;
+const hostname = process.env.hostname || "localhost";
+
 require("./config/passport")(passport);
 
 app.use(function(req, res, next) {
@@ -40,8 +43,6 @@ app.use(function(req, res, next) {
 
 app.use(require("./routes/index.js"));
 
-app.set("port", process.env.PORT || 3001);
-
-app.listen(app.get("port"), () => {
-  console.log(`✅ PORT: ${app.get("port")} 🌟`);
+app.listen(port, () => {
+  console.log(`✅ application is running at http://${hostname}:${port} 🌟`);
 });
