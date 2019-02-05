@@ -3,6 +3,14 @@ body {
   text-align: center;
 }
 
+h4 {
+  color: orangered;
+}
+
+h6 {
+  text-indent: 50%;
+}
+
 #diversity {
   display: block;
   margin-left: auto;
@@ -10,10 +18,18 @@ body {
   width: 70%;
 }
 
+.login {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .navbar-nav {
   width: 90%;
   max-width: 800px;
   margin: 0 auto;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .learnMoreButton,
@@ -26,18 +42,4 @@ body {
   color: white;
   font-weight: bold;
   text-decoration: none;
-}
-
-h6 {
-  text-indent: 50%;
-}
-
-.login {
-  color: blue;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-h4 {
-  color: orangered;
 }
