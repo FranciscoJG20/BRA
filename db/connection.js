@@ -1,11 +1,9 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/biasreporting");
-mongoose.Promise = Promise; // what does this do again?
+mongoose.Promise = Promise;
 
-if (process.env.NODE_ENV == "production") {
-  mongoose.connect(process.env.MLAB_URL);
-} else {
-  mongoose.connect("mongodb://localhost/whenpresident");
-}
+const { mongoConnectionString } = require("./../config/env-vars");
+
+console.log(mongoConnectionString);
+mongoose.connect(mongoConnectionString);
 
 module.exports = mongoose;
