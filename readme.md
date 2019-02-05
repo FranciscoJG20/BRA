@@ -2,38 +2,44 @@
 
 ![alt text](https://user-images.githubusercontent.com/36175254/43053373-4d374578-8dfa-11e8-9569-58c81d4d3c99.png)
 
-## Description:
+## Description
 
 A company wide tool to encourage employees to report bias-related incidents / hate crimes in the workplace. The tool consists of an online form, requiring employees to create an account with their work email address. Once logged in, employees can view the form and submit it when ready. In the homepage, employees can also view an FAQ that addresses how the form works, examples of bias-related incidents, and company policy.
 
-## Technologies used:
+## Technologies used
 
 NodeJS, Express, Bcrypt, Body-Parser, Connect-Flash, Handlebars, Express-Session, Method-Override, MongoDB, Mongoose, Passport, HTML, CSS, Google Fonts
 
-## Installing and running app locally:
+## Installing and running app locally
 
 You can run app locally by:
 
-1.  Forking and cloning this repository
+1.  Cloning this repository and setting up a fork on your github account
+    `git clone https://github.com/FranciscoJG20/BRA.git && cd BRA/`
+
 2.  Running npm install in the root folder, BRA
 
     `npm install`
 
-3.  Adding form seed data with seed file
+3.  Adding form seed data with seed file (you must have mongo installed locally, or already have the production mongo secrets)
 
-    `node db/seed.js`
+    `npm run dbseed`
 
-4.  Running the server
+4.  Securing necessary environment variables
 
-    `nodemon index.js`
+    `cp .env.sample .env`
 
-5.  Opening your browser and navigating to localhost://3001
+5.  Running the server
 
-## Unsolved Issues:
+    `npm run dev`
+
+6.  Opening your browser and navigating to [http://localhost:3001](http://localhost:3001)
+
+## Unsolved Issues
 
 I am trying to make the bias reporting form only accessible when a user logs in. Currently, you can see the form (/form) without authenticating. I would also like to add a name property to my user model so that when a user logs in, they are greeted by their name instead of their email address.
 
-## For more information including Data Survey, User Stories and Form Questions, see below:
+## For more information including Data Survey, User Stories and Form Questions, see below
 
 ### Survey Data
 
@@ -67,7 +73,7 @@ Rosa
 
 "I was running late to my first meeting because I had to drop off my daughter with her babysitter. I apologized to my colleagues but overheard two of them say they were lucky they weren't parents. I reported the conversation because it seemed offensive, but HR didn't think there were any issues in their language."
 
-### Form questions:
+### Form questions
 
 1.  Where did the incident take place? input field
 2.  When did the incident take place?

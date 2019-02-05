@@ -2,7 +2,7 @@ const LocalStrategy = require("passport-local").Strategy;
 const User = require("../models/user");
 
 module.exports = function(passport) {
-  //Passport authentication works by storing a value in a cookie, and then,
+  // Passport authentication works by storing a value in a cookie, and then,
   // this cookie is sent to the server for every request
   // until the session expires or is destroyed. This is a form of serialization.
   passport.serializeUser(function(user, callback) {
