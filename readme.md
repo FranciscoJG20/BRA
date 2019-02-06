@@ -15,6 +15,7 @@ NodeJS, Express, Bcrypt, Body-Parser, Connect-Flash, Handlebars, Express-Session
 You can run app locally by:
 
 1.  Cloning this repository and setting up a fork on your github account
+
     `git clone https://github.com/FranciscoJG20/BRA.git && cd BRA/`
 
 2.  Running npm install in the root folder, BRA
